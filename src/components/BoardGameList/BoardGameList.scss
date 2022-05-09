@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 25px;
+  width: 100%;
+
+  &__title {
+    font-size: 26px;
+    padding: 10px 0;
+    background-color: #15b6e2;
+    color: white;
+    font-weight: bold;
+  }
+
+  &__action {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 30px 0;
+
+    &--btn {
+      margin-left: 10px;
+      min-width: 100px;
+      padding: 10px 15px;
+    }
+  }
+}
